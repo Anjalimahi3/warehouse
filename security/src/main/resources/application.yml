@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: security-service
+  cloud:
+    gateway:
+      routes:
+      - id: core-service
+        uri: lb://core-service
+        predicates:
+        - Path= http://localhost:8100

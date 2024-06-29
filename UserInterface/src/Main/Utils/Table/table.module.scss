@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+table{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+th {
+    text-align: center !important;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+tbody  {
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .checkClose{
+    position: absolute;
+    right: -8px;
+    margin-top: -45px;
+    span{
+      cursor: pointer;
+    }
+  }
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+/* width */
+tbody::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+  }
+.columnName{
+  color: #408fda;
+}
+  /* Track */
+  tbody::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  tbody::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  tbody::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+tr{
+    height: 42px !important;
+    text-align: center;
+    margin: 10px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+}
+ td {
+    background: #ffff; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.noresults{
+  display: flex;
+  background: #fff;
+  border-radius: 6px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0 auto 10px;
+  height: 30vh;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  
+}
+
+.sortingOrder{
+  svg{
+    font-size: 24px !important;
+    cursor: pointer;
+  }
+  }
+  
+  .input{
+    height: 38px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid inherit;
+    font-family: "Montserrat", sans-serif !important;
+    border: 1px solid hsl(0, 0%, 80%);
+    padding: 0 10px;
+    font-size: 13px;
+    text-align: center;
+    //outline: #0d6efd;
+  }
+  .input:focus-visible{
+     outline: 1.8px solid #0d6efd;
+  }
+
+  .editOptions{
+    position: absolute;
+    background: #fff;
+    border-radius: 6px;
+    width: 160px;
+    height: 160px;
+  }

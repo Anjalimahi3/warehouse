@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.outerContainer{
+    background: #E5E6E8;
+    padding: 10px;
+}
+.nestedContainer{
+    background: #fff;
+    height: 100vh;
+    padding:10px;
+    display: flex;
+    border-radius: 12px;
+}
+
+.AddpurchaseButton{
+    padding: 10px;
+    font-size: 12px;
+    background: #408fda;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    border: 0;
+    font-family: "Montserrat", sans-serif !important;
+}
+.AddpurchaseButton:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(0.35, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+.noRecordsFound{
+    background: #FFFF;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    border-radius: 8px;
+}

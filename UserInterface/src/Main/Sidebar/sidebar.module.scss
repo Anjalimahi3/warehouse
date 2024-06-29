@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.sidebarOpen {
+  width: 200px;
+}
+.toggle {
+  background-color: #edf6ff;
+  float: right;
+  margin: 5px 5px 10px 10px;
+  position: absolute;
+  right: -25px;
+  top: -5px;
+  height: 20px * 2;
+  width: 20px;
+  border-bottom-right-radius: 20px * 2;
+  border-top-right-radius: 20px * 2;
+  display: flex;
+  align-items: center;
+  svg {
+    color: #212529;
+    cursor: pointer;
+  }
+}
+
+.sidebar_Wrapper {
+  background: #edf6ff;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  font-size: 13px;
+  font-weight: 600;
+  transition-duration: 4s;
+  transition-delay: 2s;
+  font-family: "Montserrat", sans-serif;
+  a:hover {
+    color: #f8f9fa !important;
+  }
+  svg {
+    font-size: 20px !important;
+  }
+}
+
+.sidebarOptions {
+  width: 100%;
+  padding: 8px;
+  margin: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+.sidebarOptions:hover {
+  background: #5174a9;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 95%;
+}
+
+.SideBarClose{
+    @extend .sidebarOptions;
+    width: fit-content;
+}
+.SideBarClose:hover{
+width: fit-content;
+}
+
+.activeTab {
+  background: #212529;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.ToogleTip{
+  position: absolute;
+  color: black;
+  display: flex;
+  z-index: 3;
+}

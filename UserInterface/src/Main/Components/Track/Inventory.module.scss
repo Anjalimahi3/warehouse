@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.trackContainer{
+    font-family: "Montserrat", sans-serif !important;
+    h5{
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+.overAllCalc{
+    position: absolute;
+    right: 65px;
+    top:105px;
+    height: 300px;
+    width: 25% !important;
+    text-transform:capitalize ;
+    font-size: 13px; 
+}
+
+.summaryButton{
+    border: 0;
+    padding: 10px 20px;
+    background: #408fda;
+    color: #fff;
+    border-radius: 10px;
+    svg{
+        margin-left: 5px;
+        color: #fff !important;
+        font-size: 20px !important;
+    }
+}

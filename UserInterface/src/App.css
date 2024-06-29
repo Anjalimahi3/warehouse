@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Kanit:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+html, body{
+  background: #E5E6E8;
+  overflow: hidden;
+}
+.css-184mlvm-control{
+  width: 98%;
+    margin: 0 1.4px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+.css-1nryff-MuiSvgIcon-root{
+  color: #408fda !important;
+}
+.css-zuj8dr-control{
+  width: 98%;
+  margin: 0 2px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+}
+.pointer{
+  cursor: pointer;
+}
+.css-b62m3t-container{
+  position: relative !important;
+}
+.css-13cymwt-control {
+  position: relative !important;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.css-b62m3t-container {
+  width: 100% !important;
+}
+.pointerEvents{
+  pointer-events: none !important;
+}
+.dropdown-toggle::after {
+  display: none !important;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+.Toastify__toast-body > div:last-child{
+  font-family: "Montserrat", sans-serif !important;
+}
+canvas{
+  font-family: "Montserrat", sans-serif !important;
+}
+.MuiList-root >li{
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 12px !important;  
+}

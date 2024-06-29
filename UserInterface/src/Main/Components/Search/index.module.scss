@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.button {
+  font-family: "Montserrat", sans-serif !important;
+  width: 100px;
+  font-size: 13px !important;
+  background: #6c757d;
+  outline: 0;
+  color: #fff;
+  border:0;
+  border-radius: 0 6px 6px 0 !important;
+}
+
+.input{
+  height: 38px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid inherit;
+  font-family: "Montserrat", sans-serif !important;
+  border: 1px solid hsl(0, 0%, 80%);
+  padding: 0 10px;
+  font-size: 13px;
+  //outline: #0d6efd;
+}
+.input:focus-visible{
+   outline: 1.8px solid #0d6efd;
+}
+
+.select{
+  border: 1px solid #6c757d !important;
+  border-left: 0 !important;
+  background: #6c757d;
+  padding: 0 10px;
+  color: #fff ;
+  border-radius: 0 6px 6px 0 ;
+  height: 33px ;
+  display: flex !important;
+  align-items: center !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 13px !important;
+  outline: 0;
+}
+.optionValue{
+  background: rgb(244, 246, 250) !important;
+}
+option:hover {
+  background-color: #555 !important;
+  color: white;
+  height: 38px !important;
+}
+
+.searchDropdown{
+  position: relative;
+  svg{
+      position: absolute;
+      left:-30px;
+      margin-top: 8px;
+      margin-right: 8px;
+      cursor: pointer;
+      color: #4976a3;
+  }
+  ul{
+    top:36px !important;
+    min-width: 200px;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 13px;
+  }
+
+}
+.searchDropdownHead{
+  position: absolute;
+  z-index: 1000;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 12px;
+  color: #757473;
+  font-weight: 600;
+  top: 60px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+.searchDropdownList{
+  padding: 5px 30px;
+  cursor: pointer;
+  &:hover{
+    background: #408fda;
+    color: #fff;
+
+  }
+}
+.dropdownMenu{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+}
+
+.searchButton{
+  font-size: 12px;
+  background: #408fda;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #fff;
+  border: 0;
+  font-family: "Montserrat", sans-serif !important;
+  padding: 4px 30px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px ;
+  margin:0 10px;
+}
+.searchButton:hover{
+  transform: scale(1.01);
+  box-shadow: rgba(0.35, 0, 0, 0.35) 0px 5px 15px;
+}

@@ -1,0 +1,4 @@
+export const EDITTABLEROW = "EDITTABLEROW";
+export const SIDEBAR = "SIDEBAR";
+export const PROFILEPOPUP = "PROFILEPOPUP";
+export const PROFILEDETAIL = "PROFILEDETAIL";

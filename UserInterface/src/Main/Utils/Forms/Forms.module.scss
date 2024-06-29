@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.labelWrapper {
+  * {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 12px !important;
+  }
+  > div:first-child {
+    height: 38px;
+  }
+}
+.MenuItem {
+  * {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 12px !important;
+  }
+}
+
+.reactselect {
+  background-color: aliceblue;
+}
+
+.selectOption {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.selectOption:focus-visible {
+  outline: 1.8px solid #0d6efd;
+}
